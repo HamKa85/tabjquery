@@ -1,2 +1,67 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+  <center>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'presentation')">Presentation</button>
+  <button class="tablinks" onclick="openCity(event, 'menu')">Menu</button>
+  <button class="tablinks" onclick="openCity(event, 'contact')">Contact</button>
+</div>
+
+<div id="presentation" class="tabcontent">
+  <h3>Presentation</h3>
+  <p>Cette page affiche un menu Jquery avec tabulation</p>
+</div>
+
+<div id="menu" class="tabcontent">
+  <h3>Menu du jour</h3>
+
+  <table>
+    <tr>
+      <th>Plat</th>
+      <th>Contenance</th>
+      <th>Prix</th>
+    </tr>
+    <tr>
+      <td>Burger</td>
+      <td>200g</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <td>Pizza</td>
+      <td>300g</td>
+      <td>$30</td>
+    </tr>
+    <tr>
+      <td>Salade</td>
+      <td>150g</td>
+      <td>$15</td>
+    </tr>
+    <tr>
+      <td>Pasta</td>
+      <td>200g</td>
+      <td>$18</td>
+    </tr>
+  </table>
+
+
+</div>
+
+<div id="contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Appelez nous!</p>
+</div>
+<br>
+
+<!--
+<%= link_to "Menu 2", home_index2_path %><br />
+-->
+
+</center>
+
+</body>
+</html>

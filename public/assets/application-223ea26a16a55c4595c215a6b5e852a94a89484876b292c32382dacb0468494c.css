@@ -1,0 +1,88 @@
+/* line 5, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+body {
+  font-family: Arial;
+  background-color: grey;
+}
+
+/* line 9, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+h3, p {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Style the tab */
+/* line 15, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+/* line 22, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+/* line 34, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+/* line 39, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+/* line 44, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* line 53, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* line 58, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* line 63, /home/hamzou/Bureau/tabs/app/assets/stylesheets/home.scss */
+th, td {
+  padding: 12px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
